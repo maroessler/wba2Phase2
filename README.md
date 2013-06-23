@@ -1,7 +1,5 @@
-wba2Phase2
+## Kellnersystem
 ==========
-
-## KEllnersystem
 
 # Projektidee
 
