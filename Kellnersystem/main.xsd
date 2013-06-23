@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.kellnersystem.com/main" xmlns="http://www.kellnersystem.com/tischbestellungen"
+	elementFormDefault="qualified">
+	<xs:element name="Kellnersystem">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Tisch" maxOccurs="unbounded"> <!-- mit id -->
+					<xs:complexeType>
+						<xs:sequence>
+							<xs:element name="Bestellungen">
+								<xs:complexeType>
+									<xs:sequence>
+										<xs:element name="Bestellung" maxOccurs="unbounded">
+											<xs:complexeType>
+												<xs:sequence>
+													<xs:element name="Artikellist">
+														<xs:complexeType>
+															<xs:sequence>
+																<xs:element name="Artikel" maxOccurs="unbounded">
+																	<xs:complexeType>
+																		<xs:sequence>
+																			<xs:element name="Artikel_id">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:integer">
+																						<xs:minInclusive value="0"/>
+																					</xs:restriction>
+																				<xs:simpleType>
+																			</xs:element>
+																			<xs:element name="Menge">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:decimal">
+																						<xs:minInclusive value="0"/>
+																					</xs:restriction>
+																				<xs:simpleType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexeType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexeType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:integer" />
+											</xs:sequence>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexeType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:integer" />
+					</xs:complexeType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

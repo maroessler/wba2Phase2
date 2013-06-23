@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Artikelliste xmlns="http://www.kellnersystem.com/artikelliste">
+    <Artikel artikelId="1">
+        <ArtikelName>Cola</ArtikelName>
+        <Preis>2.5</Preis>
+    </Artikel>
+    <Artikel artikelId="2">
+        <ArtikelName>Fanta</ArtikelName>
+        <Preis>2.5</Preis>
+    </Artikel>
+    <Artikel artikelId="3">
+        <ArtikelName>Bier</ArtikelName>
+        <Preis>2.0</Preis>
+    </Artikel>
+    <Artikel artikelId="4">
+        <ArtikelName>Wasser</ArtikelName>
+        <Preis>1.5</Preis>
+    </Artikel>
+    <Artikel artikelId="50">
+        <ArtikelName>Waffel</ArtikelName>
+        <Preis>3</Preis>
+    </Artikel>
+    <Artikel artikelId="51">
+        <ArtikelName>Crepe</ArtikelName>
+        <Preis>3</Preis>
+    </Artikel>
+    <Artikel artikelId="52">
+        <ArtikelName>Apfelkuchen</ArtikelName>
+        <Preis>2.8</Preis>
+    </Artikel>
+    <Artikel artikelId="53">
+        <ArtikelName>Tomatensalat</ArtikelName>
+        <Preis>5.4</Preis>
+    </Artikel>
+    <Artikel artikelId="54">
+        <ArtikelName>Pizza Tonno</ArtikelName>
+        <Preis>7.0</Preis>
+    </Artikel>
+    <Artikel artikelId="55">
+        <ArtikelName>Pizza Funghi</ArtikelName>
+        <Preis>6.50</Preis>
+    </Artikel>
+    <Artikel artikelId="56">
+        <ArtikelName>Döner</ArtikelName>
+        <Preis>3.5</Preis>
+    </Artikel>
+</Artikelliste>
